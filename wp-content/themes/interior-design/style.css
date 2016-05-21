@@ -31,10 +31,35 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 
 
 /*-------------------------------------------------------------------------*/
+/*	Components	*/
+/*-------------------------------------------------------------------------*/
+.line-height--80 {
+	line-height: 80px;
+}
+
+.background-gray {
+	background-color: #eee;
+}
+
+.color-primary {
+	color: #f1cb00
+}
+
+/*-------------------------------------------------------------------------*/
 /*	1.	Browser Reset	*/
 /*-------------------------------------------------------------------------*/
+html {
+    	background-image: url(http://localhost:8888/km-interiores/wp-content/uploads/2016/05/fondo-small.png)!important;
+	background-repeat: repeat;
+
+}
+
+body {
+	background-color: transparent;
+	margin: 0px;
+}
+
 html,
-body,
 div,
 span,
 applet,
@@ -219,11 +244,11 @@ ul li {
   display: block;
 }
 #middle {
-  border-left-width: 40px;
-  border-right-width: 40px;
+  border-left-width: 0px;
+  border-right-width: 0px;
   border-right-style: solid;
   border-left-style: solid;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 #bottom {
   border-left-width: 40px;
@@ -1740,6 +1765,9 @@ nav > div > ul a {
 #header .header_side_inner #navigation > li > ul ul {
   padding: 0;
 }
+.headline {
+	margin-bottom: 40px; 
+}
 #page,
 #main,
 #header,
@@ -2729,6 +2757,7 @@ nav > div > ul a {
 .owl-pagination .owl-page:first-child {
   margin-left: 0px;
 }
+
 /*-------------------------------------------------------------------------*/
 /*	3.	Header + Centered + Right + Fixed Versions	*/
 /*-------------------------------------------------------------------------*/

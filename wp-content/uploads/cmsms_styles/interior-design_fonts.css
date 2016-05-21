@@ -24,31 +24,31 @@
 	.cmsms_tabs.lpr .cmsms_tab li,
 	.cmsms_stat_counter_wrap,
 	.cmsms_profile_subtitle{
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-		font-size:14px;
-		line-height:22px;
+		font-family:'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
+		font-size:16px;
+		line-height:26px;
 		font-weight:300;
 		font-style:normal;
 	}
 	
 	.cmsms_twitter .published {
-		height:22px;
-		font-size:13px;
+		height:26px;
+		font-size:15px;
 	}
 	
 	.cmsms_quotes_slider.cmsms_quotes_slider_type_center .wrap_quote_title .quote_subtitle {
-		font-size:16px;
+		font-size:18px;
 	}
 	
 	.post.cmsms_masonry_type .cmsms_post_meta_wrap .cmsms_post_meta_left .cmsms_post_date,
 	.widget_custom_contact_form_entries .cmsms-form-builder .cmsms_input.area_opened label {
-		font-size:11px;
-		line-height:19px;
+		font-size:13px;
+		line-height:23px;
 	}
 	
 	.post_comments .commentlist .comment-body .comment-content .published,
 	.cmsms_profile .pl_subtitle {
-		font-size:12px;
+		font-size:14px;
 	}
 	
 	.post.cmsms_masonry_type .cmsms_post_cont_info > span,
@@ -60,29 +60,29 @@
 	.post.cmsms_timeline_type .cmsms_post_like a,
 	.post.cmsms_masonry_type .cmsms_post_cont .cmsms_post_meta_wrap .cmsms_post_meta_right span > a,
 	.post.cmsms_masonry_type .cmsms_post_cont_info > span a {
-		font-size:12px;
-		line-height:20px;
+		font-size:14px;
+		line-height:24px;
 	}
 	
 	.cmsms_profile_subtitle,
 	.post.cmsms_default_type .cmsms_post_content,
 	.cmsms_archive .project.cmsms_default_type .cmsms_post_cont .cmsms_post_content {
-		font-size:16px;
-		line-height:24px;
+		font-size:18px;
+		line-height:28px;
 	}
 	
 	.post.cmsms_masonry_type .cmsms_post_content,
 	.post.cmsms_timeline_type .cmsms_post_content,
 	.widget_custom_contact_form_entries .submit_wrap a.button,
 	.widget_custom_contact_form_entries .cmsms-form-builder label {
-		font-size:13px;
-		line-height:21px;
+		font-size:15px;
+		line-height:25px;
 	}
 	
 	.cmsms_pricing_table .cmsms_currency,
 	.cmsms_pricing_table .cmsms_coins {
-		font-size:24px;
-		line-height:32px;
+		font-size:26px;
+		line-height:36px;
 	}
 	
 	.cmsms_pricing_table .cmsms_period,
@@ -92,56 +92,56 @@
 	.details_item_desc_comments a,
 	.details_item_desc_like a,
 	.cmsms_posts_slider .project .slider_project_outer .slider_project_inner .cmsms_slider_project_head_right > a {
-		font-size:13px;
-		line-height:22px;
+		font-size:15px;
+		line-height:26px;
 	}
 	
 	blockquote footer,
 	.details_item_desc_like a:before {
-		font-size:16px;
-		line-height:24px;
+		font-size:18px;
+		line-height:28px;
 	}
 	
 	.details_item_desc_comments a:before {
-		font-size:17px;
+		font-size:19px;
 	}
 	
 	.cmsms_breadcrumbs, 
 	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner, 
 	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner a {
-		font-size:11px;
-		line-height:18px;
+		font-size:13px;
+		line-height:22px;
 	}
 	
 	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_counter_wrap {
-		font-size:32px;
-		line-height:32px;
+		font-size:34px;
+		line-height:36px;
 	}
 	
 	.cmsms_stats.stats_mode_circles .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap {
-		font-size:32px;
+		font-size:34px;
 	}
 	
 	.cmsms_quotes.quote_grid .quote_subtitle,
 	.cmsms_quotes.cmsms_quotes_slider .quote_subtitle {
-		font-size:13px;
+		font-size:15px;
 	}
 	
 	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle .cmsms_toggle_inner {
-		line-height:29px;
+		line-height:33px;
 	}
 	
 	.cmsms_tabs_wrap {
-		font-size:16px;
-		line-height:34px;
+		font-size:18px;
+		line-height:38px;
 	}
 	
 	.cmsms_tabs.lpr .cmsms_tabs_wrap {
-		line-height:22px;
+		line-height:26px;
 	}
 	
 	q {
-		font-size:14px;
+		font-size:16px;
 	}
 	
 	.cmsms_posts_slider .post .cmsms_slider_post_quote_author, 
@@ -152,23 +152,23 @@
 	#wp-calendar th, 
 	#wp-calendar td,
 	.sidebar aside { 
-		font-size:13px;
+		font-size:15px;
 	}
 	
 	.cmsms_wrap_pagination ul li .cmsms_theme_icon_slide_prev, 
 	.cmsms_wrap_pagination ul li .cmsms_theme_icon_slide_next {
-		font-size:12px;
+		font-size:14px;
 	}
 	
 	.cmsms_post_filter_but:before, 
 	.cmsms_project_filter_but:before, 
 	.cmsms_project_sort_but:before {
-		font-size:11px;
+		font-size:13px;
 	}
 	
 	.cmsms_post_filter_but:before, 
 	.cmsms_project_filter_but:before {
-		width:16px !important;
+		width:18px !important;
 	}
 	
 	.cmsms_twitter abbr, 
@@ -187,13 +187,13 @@
 	.cmsms_post_filter_but:before, 
 	.cmsms_project_filter_but:before, 
 	.cmsms_project_sort_but:before {
-		line-height:22px !important;
+		line-height:26px !important;
 	}
 	
 	.details_item_desc_like,
 	.details_item_desc_comments, 
 	.campaign .cmsms_campaign_meta_info {
-		height:22px;
+		height:26px;
 	}
 	/* Finish Content Font */
 
@@ -877,7 +877,7 @@
 	.cmsms_gallery li.cmsms_caption figcaption,
 	.wp-caption .wp-caption-text,
 	.tweet_time {
-		font-size:13px;
+		font-size:15px;
 	}
 	
 	.cmsms_post_info .cmsms_post_date .cmsms_day_mon, 
