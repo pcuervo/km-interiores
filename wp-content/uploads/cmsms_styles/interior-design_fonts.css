@@ -24,11 +24,11 @@
 	.cmsms_tabs.lpr .cmsms_tab li,
 	.cmsms_stat_counter_wrap,
 	.cmsms_profile_subtitle{
-		font-family:'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
+		font-family:'PT Serif', Georgia, Times, 'Century Schoolbook L', serif;
 		font-size:16px;
 		line-height:26px;
-		font-weight:300;
-		font-style:normal;
+		font-weight:100;
+		font-style:italic;
 	}
 	
 	.cmsms_twitter .published {
@@ -270,7 +270,7 @@
 
 	/* Start Navigation Title Font */
 	#navigation > li > a {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
 		font-size:14px;
 		line-height:20px;
 		font-weight:500;
@@ -387,19 +387,19 @@
 	h1 a,
 	#header .logo .title,
 	.cmsms_pricing_table .cmsms_price {
-		font-family:Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:80px;
 		line-height:90px;
-		font-weight:bold;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
 	
 	.cmsms_twitter .published {
-		font-family:Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-		font-weight:bold;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
+		font-weight:100;
 	}
 	
 	.error .error_title {
@@ -408,18 +408,18 @@
 	}
 	
 	.cmsms_dropcap {
-		font-family:Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-		font-weight:bold;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
 	.cmsms_icon_list_items.cmsms_icon_list_icon_type_number .cmsms_icon_list_item .cmsms_icon_list_icon:before,
 	.cmsms_icon_box.box_icon_type_number:before,
 	.cmsms_icon_box.cmsms_icon_heading_left.box_icon_type_number .icon_box_heading:before {
-		font-family:Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-		font-weight:bold;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
+		font-weight:100;
 		font-style:normal;
 	}
 	
@@ -563,12 +563,12 @@
 	h2,
 	h2 a,
 	.cmsms_search_post_number {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:30px;
 		line-height:36px;
-		font-weight:500;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
@@ -623,12 +623,12 @@
 	h3 a,
 	.cmsms_sitemap_wrap .cmsms_sitemap > li > a,
 	.cmsms_post_info .cmsms_post_date .cmsms_year {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:24px;
 		line-height:30px;
-		font-weight:500;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
@@ -715,12 +715,12 @@
 	/* Start H4 Font */
 	h4, 
 	h4 a {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:24px;
 		line-height:30px;
-		font-weight:500;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
@@ -761,12 +761,12 @@
 	.post_nav > span a, 
 	.cmsms_quotes h6.quote_title,  
 	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > a {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:16px;
 		line-height:22px;
-		font-weight:500;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	
@@ -837,12 +837,12 @@
 	.related_posts_tabs_campaign .cmsms_stats .cmsms_stat_wrap .cmsms_stat_title, 
 	.related_posts_tabs_campaign .cmsms_stats.stats_mode_bars .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap, 
 	.cmsms_search_post .cmsms_search_post_number_wrap .cmsms_post_type_label {
-		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-family:'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif;
 		font-size:14px;
 		line-height:20px;
-		font-weight:500;
+		font-weight:100;
 		font-style:normal;
-		text-transform:none;
+		text-transform:uppercase;
 		text-decoration:none;
 	}
 	

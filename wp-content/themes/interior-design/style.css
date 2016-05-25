@@ -55,7 +55,7 @@ html {
 }
 
 body {
-	background-color: transparent;
+	background-color: transparent!important;
 	margin: 0px;
 }
 
@@ -141,6 +141,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+header {
+	background-color: transparent!important;
+}
 *,
 *:before,
 *:after {
@@ -216,6 +219,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+  letter-spacing: 0.2em;	
 }
 ul,
 ol {
@@ -576,6 +580,7 @@ html:after {
   bottom: 0;
   left: 0;
   height: 100%;
+  background-color: transparent!important;
 }
 html:after {
   left: auto;
@@ -1782,6 +1787,9 @@ nav > div > ul a {
 .cmsms_row_outer_parent {
   width: 100%;
   position: relative;
+}
+.middle_inner {
+   background-color: transparent!important;
 }
 #footer,
 .headline_inner,
@@ -3309,6 +3317,12 @@ nav > div > ul a {
 .header_mid .header_mid_inner .resp_nav_wrap_inner {
   height: 60px;
 }
+
+.cmsms_posts_slider .post:nth-child(2n+1) {
+	background-color: #737478!important;
+}
+
+
 /***************** Elements ******************/
 .post-password-form {
   padding-top: 40px;
@@ -3924,6 +3938,14 @@ button {
 .post.cmsms_default_type .cmsms_post_cont,
 .cmsms_archive .project.cmsms_default_type .cmsms_post_cont {
   min-width: 250px;
+}
+
+.cmsms_post_cont {
+	background-color: #e9e8e8!important;
+}
+.cmsms_post_cont .cmsms_post_cont_info span.cmsms_post_user_name,
+.cmsms_post_cont .cmsms_post_cont_info span.cmsms_post_category {
+	background-color: #444443!important;
 }
 .blog.columns .post,
 .blog.columns .cmsms_archive .project,
