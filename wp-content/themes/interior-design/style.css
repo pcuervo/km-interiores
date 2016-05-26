@@ -39,7 +39,8 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 .background-image { min-height: 400px; }
 
 /*Colors*/
-.color-primary { color: #f1cb00 }
+.color--light { color: #fff; }
+.color--primary { color: #f1cb00; }
 
 /*Padding*/
 
@@ -49,7 +50,7 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 @media (min-width: 768px){
 	.background-image {
 		background-position: center left!important;
-		background-size: 70% 100%!important;
+		background-size: 77% 100%!important;
 	}
 }
 @media (max-width: 767px){
@@ -5183,7 +5184,7 @@ button {
 	text-align: center;
 }
 .cmsms_project_filter_wrap .cmsms_project_filter .cmsms_project_sort_block {
-	display: inline-block;
+	display: none;
 	position: relative;
 	vertical-align: middle;
 	padding: 0 20px;
