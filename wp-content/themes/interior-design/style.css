@@ -33,6 +33,12 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 /*-------------------------------------------------------------------------*/
 /*	Components	*/
 /*-------------------------------------------------------------------------*/
+/*Form-contact*/
+.ajax-loader { width: 30px; }
+
+/*Font-size*/
+@media (max-width: 700px){ .font-size--25-xs { font-size: 25px!important; } }
+@media (max-width: 700px){ .font-size--20-xs { font-size: 20px!important; } }
 
 /*Background*/
 .background-gray { background-color: #eee; }
@@ -56,6 +62,14 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 @media (max-width: 767px){
 	.logo-circular { display: none!important; }
 }
+
+@media (max-width: 700px){
+	.background-image h2 { font-size: 25px!important}
+	.background-image h3 { font-size: 20px!important}
+	.background-image h2,
+	.background-image h3 { letter-spacing:0.1em; }
+}
+
 
 .margin-bottom--large {
 	margin-bottom: 40px;
@@ -1557,12 +1571,32 @@ nav > div > ul a {
 }
 #header .header_side_inner,
 #header .header_side .header_side_inner .header_side_top_side {
-	background-color: #f1cb00!important;
+	background-color: #000!important;
 }
 .header_side a,
 .header_side .search_wrap .search_bar_wrap button:before {
-	color: #000!important;
+	color: #f1cb00!important;
 }
+
+/*Menú movil*/
+@media only screen and (max-width: 1024px) {
+	.header_side #navigation {
+		background-color: #000!important;
+	}
+	.header_side #navigation > li.current-menu-item > a, .header_side #navigation > li.current_page_item > a {
+		color: #000!important;
+		background-color: #f1cb00!important;
+	}
+}
+.header_side .header_side_top_side,
+.header_side #navigation { border-color: #f1cb00!important; }
+
+.header_side .cmsms_button, .header_side .button:hover, #header .header_side .header_side_inner .header_side_middle_side #navigation > li li a:not([href]):hover + .cmsms_cross:before, #header .header_side .header_side_inner .header_side_middle_side #navigation > li li a:not([href]):hover + .cmsms_cross:after, .header_side .responsive_nav:before, .header_side #navigation > li li .cmsms_cross:hover:after, .header_side #navigation > li li .cmsms_cross:hover:before, .header_side #navigation > li > .cmsms_cross:before, .header_side #navigation > li > .cmsms_cross:after, .header_side .responsive_nav:after,
+.header_side #navigation > li > .cmsms_cross:before, .header_side #navigation > li > .cmsms_cross:after, .header_side .responsive_nav:after{
+	background-color: #f1cb00!important;
+}
+.header_side .responsive_nav { border-color: #f1cb00!important; }
+.header_side a:hover{ color: #fff!important; }
 #header .header_side.cmsms_ovv,
 #header .header_side_inner.cmsms_ovv {
 	overflow: visible;
@@ -3393,10 +3427,9 @@ nav > div > ul a {
 	height: 60px;
 }
 
-.cmsms_posts_slider .post:nth-child(2n+1) {
-	background-color: #737478!important;
-}
-
+.cmsms_posts_slider .post:nth-child(2n+1) { background-color: #1C1C1C!important; }
+.cmsms_posts_slider .post:nth-child(2n) { background-color: #131313!important; }
+.cmsms_posts_slider .post h4 a { color: #f1cb00; }
 
 /***************** Elements ******************/
 .post-password-form {
@@ -4016,8 +4049,9 @@ button {
 }
 
 .cmsms_post_cont {
-	background-color: #e9e8e8!important;
+	background-color: #131313!important;
 }
+.cmsms_post_cont .cmsms_post_content p { color: #f1cb00!important}
 .cmsms_post_cont .cmsms_post_cont_info span.cmsms_post_user_name,
 .cmsms_post_cont .cmsms_post_cont_info span.cmsms_post_category {
 	background-color: #444443!important;
@@ -5098,7 +5132,10 @@ button {
 .post_comments .commentlist ul > li:before {
 	content: none;
 }
+
+/*Comentarios ocultos*/
 .comment-respond {
+	display: none;
 	margin: 40px 0 20px 0;
 	position: relative;
 	overflow: hidden;
@@ -5359,7 +5396,7 @@ figure.cmsms_img_rollover_wrap:hover .cmsms_img_rollover {
 	padding: 10px;
 	position: relative;
 	overflow: hidden;
-	background-color: #d9d6d3!important;
+	background-color: #f1cb00!important;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header {
 	position: relative;
