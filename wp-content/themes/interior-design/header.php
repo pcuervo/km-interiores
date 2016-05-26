@@ -179,7 +179,7 @@ if (is_singular()) {
 		</div>
 	</div>
 	<?php } ?>
-	<div class="header_mid" data-height="<?php echo esc_attr($cmsms_option[CMSMS_SHORTNAME . '_header_mid_height']); ?>">
+	<div class="header_mid [ cmsms_row_inner ]" data-height="<?php echo esc_attr($cmsms_option[CMSMS_SHORTNAME . '_header_mid_height']); ?>">
 		<div class="header_mid_outer">
 			<div class="header_mid_inner">
 				<div class="logo_wrap"><?php cmsmasters_logo(); ?></div>
