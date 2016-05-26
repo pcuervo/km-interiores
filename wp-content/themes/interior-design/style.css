@@ -33,10 +33,6 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 /*-------------------------------------------------------------------------*/
 /*	Components	*/
 /*-------------------------------------------------------------------------*/
-.line-height--80 {
-	line-height: 80px;
-}
-
 .background-gray {
 	background-color: #eee;
 }
@@ -45,13 +41,29 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	color: #f1cb00
 }
 
+.background-image {
+	min-height: 400px;
+}
+
+.margin-bottom--large {
+	margin-bottom: 40px;
+}
+
+.cmsms_row.background-image + .cmsms_row {
+	margin-top: 50px;
+}
+
+.text-transform--none,
+.text-transform--none h4 {
+	text-transform: none!important;
+}
+
 /*-------------------------------------------------------------------------*/
 /*	1.	Browser Reset	*/
 /*-------------------------------------------------------------------------*/
 html {
-    	background-image: url(http://localhost:8888/km-interiores/wp-content/uploads/2016/05/fondo-small.png)!important;
-	background-repeat: repeat;
-
+    	background-image: url(img/fondo-oscuro.jpg)!important;
+	background-repeat: repeat!important;
 }
 
 body {
@@ -219,7 +231,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  letter-spacing: 0.2em;	
+  letter-spacing: 0.2em;
 }
 ul,
 ol {
@@ -246,6 +258,10 @@ ol ol {
 }
 ul li {
   display: block;
+}
+#middle,
+#bottom {
+	border-color: transparent!important;
 }
 #middle {
   border-left-width: 0px;
@@ -422,6 +438,24 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+
+input[type=email],
+input[type=submit],
+textarea {
+	background-color: transparent!important;
+}
+input[type=text],
+input[type=email],
+textarea,
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
+	color: #fff!important;
+}
+span.wpcf7-not-valid-tip {
+	color: #f1cb00;
+}
+
+
 input[type=text],
 input[type=email],
 input[type=password],
@@ -1771,7 +1805,7 @@ nav > div > ul a {
   padding: 0;
 }
 .headline {
-	margin-bottom: 40px; 
+	margin-bottom: 40px;
 }
 #page,
 #main,
@@ -5277,16 +5311,23 @@ button {
   left: 5px;
   right: 5px;
 }
+figure.cmsms_img_rollover_wrap:hover .cmsms_img_rollover {
+	background-color: rgba(0, 0, 0, 0.8)!important;
+}
 .portfolio .project .project_outer .project_inner {
-  padding: 10px 0 10px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
+	background-color: #d9d6d3!important;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header {
   position: relative;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header .cmsms_project_title {
   margin: 0 0 -5px;
+}
+.portfolio .project .project_outer .project_inner .cmsms_project_header .cmsms_project_title a {
+	color: #444443!important;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_content {
   padding: 20px 0 0;
