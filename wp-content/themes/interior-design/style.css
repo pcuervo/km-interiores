@@ -360,6 +360,9 @@ ul li li:first-child:before {
 	bottom: 0;
 	z-index: 9998;
 }
+#footer .social_wrap_inner a { color: #f1cb00!important; }
+#footer .social_wrap_inner a:hover { color: #fff!important; }
+
 #header ul,
 #footer ul,
 .esg-grid ul {
@@ -5406,10 +5409,19 @@ figure.cmsms_img_rollover_wrap:hover .cmsms_img_rollover {
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header .cmsms_project_title a {
 	color: #444443!important;
+	font-weight: 600!important;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_content {
 	padding: 20px 0 0;
 }
+.portfolio .project .project_content .cmsms_project_content,
+.cmsmsLike > span,
+.project_details {
+	color: #fff!important;
+}
+
+.profile .cmsms_profile_header .cmsms_profile_subtitle { color: #f1cb00!important; }
+
 .portfolio .project .project_outer .project_inner .cmsms_project_header + .cmsms_project_footer,
 .portfolio .project .project_outer .project_inner .cmsms_project_cont_info + .cmsms_project_footer {
 	padding: 20px 0 0;
@@ -7928,6 +7940,7 @@ q:after {
 	-moz-transform: scale(1.03, 1.03);
 	transform: scale(1.03, 1.03);
 }
+.cmsms_profile.horizontal .pl_img:hover .pl_social { background-color: rgba(241,203,0, 0.8)!important; }
 .cmsms_profile.horizontal .pl_img:hover .pl_social .pl_social_list {
 	top: 0;
 	opacity: 1;
