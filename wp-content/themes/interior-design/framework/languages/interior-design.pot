@@ -253,7 +253,7 @@ msgid "On"
 msgstr ""
 
 #: search.php:130
-msgid "Read More"
+msgid "Leer más"
 msgstr ""
 
 #: searchform.php:16
@@ -1050,12 +1050,12 @@ msgstr ""
 
 #: framework/admin/options/cmsms-theme-options-post.php:245
 #: framework/admin/options/cmsms-theme-options-profile.php:161
-msgid "'Read More' Buttons Text"
+msgid "'Leer más' Buttons Text"
 msgstr ""
 
 #: framework/admin/options/cmsms-theme-options-post.php:246
 #: framework/admin/options/cmsms-theme-options-profile.php:162
-msgid "Enter the 'Read More' button text that should be used in you blog shortcode"
+msgid "Enter the 'Leer más' button text that should be used in you blog shortcode"
 msgstr ""
 
 #: framework/admin/options/cmsms-theme-options-profile.php:36
@@ -3382,7 +3382,7 @@ msgid "Please add your Twitter API keys"
 msgstr ""
 
 #: framework/class/widgets.php:1870
-msgid "read more how"
+msgid "Leer más how"
 msgstr ""
 
 #: framework/class/widgets.php:1901
@@ -3505,7 +3505,7 @@ msgid "View"
 msgstr ""
 
 #: framework/function/template-functions.php:526
-msgid "Read more"
+msgid "Leer más"
 msgstr ""
 
 #: framework/function/template-functions.php:737

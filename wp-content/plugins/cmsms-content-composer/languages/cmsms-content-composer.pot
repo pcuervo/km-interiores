@@ -350,7 +350,7 @@ msgid "Image Rollover"
 msgstr ""
 
 #: cmsms-content-composer.php:208
-msgid "'Read More' button"
+msgid "'Leer más' button"
 msgstr ""
 
 #: cmsms-content-composer.php:209

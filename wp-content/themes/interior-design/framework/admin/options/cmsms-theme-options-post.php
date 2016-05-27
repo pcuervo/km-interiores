@@ -242,8 +242,8 @@ function get_custom_post_meta_fields() {
 			)
 		),
 		array(
-			'label'	=> __("'Read More' Buttons Text", 'interior-design'),
-			'desc'	=> __("Enter the 'Read More' button text that should be used in you blog shortcode", 'interior-design'),
+			'label'	=> __("'Leer más' Buttons Text", 'interior-design'),
+			'desc'	=> __("Enter the 'Leer más' button text that should be used in you blog shortcode", 'interior-design'),
 			'id'	=> $cmsms_option_name . 'read_more',
 			'type'	=> 'text',
 			'hide'	=> '',
