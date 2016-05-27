@@ -35,7 +35,8 @@ if ($cmsms_project_project_options == 'custom') {
 	$cmsms_project_more_posts = cmsms_get_global('portfolio_more_projects_box');
 }
 
-
+echo '<a href="/km-interiores"><div class="[ logo-single ]">' . "\n";
+echo '</div></a>';
 
 echo '<!--_________________________ Start Content _________________________ -->' . "\n" .
 '<div class="middle_content entry" role="main">' . "\n\t";

@@ -156,7 +156,7 @@ if (
 								'title' => ($image_atts['title'] != '') ? esc_attr($image_atts['title']) : cmsms_title(get_the_ID(), false)
 							)) .
 							'<div class="cmsms_img_rollover">' .
-								'<a href="' . esc_url($link_href[0]) . '" rel="ilightbox[img_' . get_the_ID() . ']" title="' . (($image_atts['title'] != '') ? esc_attr($image_atts['title']) : cmsms_title(get_the_ID(), false)) . '" class="cmsms_image_link jackbox no_open_link">' . esc_html__( 'View', 'interior-design' ) . '</a>' .
+								'<a href="' . esc_url($link_href[0]) . '" rel="ilightbox[img_' . get_the_ID() . ']" title="' . (($image_atts['title'] != '') ? esc_attr($image_atts['title']) : cmsms_title(get_the_ID(), false)) . '" class="cmsms_image_link jackbox no_open_link">' . esc_html__( 'Galeria', 'interior-design' ) . '</a>' .
 							'</div>' .
 						'</figure>' .
 					'</div>';

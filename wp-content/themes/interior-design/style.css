@@ -51,7 +51,7 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 
 .padding-right---15 { padding-right: 15%; }
 
-/*Background y logo inicial*/
+/*Background */
 .background-header {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -68,9 +68,18 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 .background-mobiliario { background-image: url(img/background-header/mobiliario3.jpg);}
 .background-publicaciones { background-image: url(img/background-header/publicaciones3.jpg);}
 
+/*  Logo inicial*/
 @media (max-width: 1024px){
 	.logo-lateral { display: none!important; }
 	.background-header.three_fourth { width: 96.5%!important; }
+}
+
+.logo-single {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 300px;
+	padding-bottom: 50px;
+	background-image: url(img/logo-largo.png);
 }
 
 .background-header + .one_fourth .cmsms_img.cmsms_image_r { margin-left: 0px!important;}

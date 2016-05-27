@@ -3,15 +3,17 @@
  * @package 	WordPress
  * @subpackage 	Interior Design
  * @version		1.0.0
- * 
+ *
  * Single Post Template
  * Created by CMSMasters
- * 
+ *
  */
 
 
 get_header();
 
+echo '<a href="/km-interiores"><div class="[ logo-single ]">' . "\n";
+echo '</div></a>';
 
 $cmsms_option = cmsmasters_get_global_options();
 
@@ -52,8 +54,8 @@ if ($cmsms_layout == 'r_sidebar') {
 
 if (have_posts()) : the_post();
 	echo '<div class="blog opened-article">' . "\n";
-	
-	
+
+
 	if ($cmsms_layout == 'fullwidth') {
 		if (get_post_format() != '') {
 			get_template_part('framework/postType/blog/post/fullwidth/' . get_post_format());
@@ -64,80 +66,80 @@ if (have_posts()) : the_post();
 		if (get_post_format() != '') {
 			get_template_part('framework/postType/blog/post/sidebar/' . get_post_format());
 		} else {
-			get_template_part('framework/postType/blog/post/sidebar/standard');   
+			get_template_part('framework/postType/blog/post/sidebar/standard');
 		}
 	}
-	
-	
+
+
 	if ($cmsms_post_sharing_box == 'true') {
 		cmsmasters_sharing_box();
 	}
-	
-	
+
+
 	if ($cmsms_option[CMSMS_SHORTNAME . '_blog_post_nav_box']) {
 		cmsmasters_prev_next_posts();
 	}
-	
-	
-	
+
+
+
 	if (get_the_tags()) {
 		$tgsarray = array();
-		
+
 		foreach (get_the_tags() as $tagone) {
 			$tgsarray[] = $tagone->term_id;
-		}  
+		}
 	} else {
 		$tgsarray = '';
 	}
-	
+
 	if ($cmsms_post_more_posts != 'hide') {
-		cmsmasters_related( 
-			'h6', 
-			$cmsms_post_more_posts, 
-			$tgsarray, 
-			cmsms_get_global('blog_more_posts_count'), 
-			cmsms_get_global('blog_more_posts_pause'), 
-			'post' 
+		cmsmasters_related(
+			'h6',
+			$cmsms_post_more_posts,
+			$tgsarray,
+			cmsms_get_global('blog_more_posts_count'),
+			cmsms_get_global('blog_more_posts_pause'),
+			'post'
 		);
 	}
-	
-	
+
+
 	if ($cmsms_post_author_box == 'true') {
 		cmsmasters_author_box(esc_html__('About author', 'interior-design'), 'h3');
 	}
-	
-	
-	
-	comments_template(); 
-	
-	
+
+
+
+	comments_template();
+
+
 	echo '</div>';
 endif;
 
 
-echo '</div>' . "\n" . 
+echo '</div>' . "\n" .
 '<!-- _________________________ Finish Content _________________________ -->' . "\n\n";
 
 
 if ($cmsms_layout == 'r_sidebar') {
-	echo "\n" . '<!-- _________________________ Start Sidebar _________________________ -->' . "\n" . 
+	echo "\n" . '<!-- _________________________ Start Sidebar _________________________ -->' . "\n" .
 	'<div class="sidebar" role="complementary">' . "\n";
-	
-	
+
+
 	get_sidebar();
-	
-	
-	echo "\n" . '</div>' . "\n" . 
+
+
+	echo "\n" . '</div>' . "\n" .
 	'<!-- _________________________ Finish Sidebar _________________________ -->' . "\n";
 } elseif ($cmsms_layout == 'l_sidebar') {
-	echo "\n" . '<!-- _________________________ Start Sidebar _________________________ -->' . "\n" . 
+	echo "\n" . '<!-- _________________________ Start Sidebar _________________________ -->' . "\n" .
 	'<div class="sidebar fl" role="complementary">' . "\n";
-	
-	
+
+
 	get_sidebar();
-	
-	
-	echo "\n" . '</div>' . "\n" . 
+
+
+	echo "\n" . '</div>' . "\n" .
 	'<!-- _________________________ Finish Sidebar _________________________ -->' . "\n";
 }
 
