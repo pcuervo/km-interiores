@@ -53,13 +53,13 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 .padding-right---15 { padding-right: 15%; }
 
 /*Background y logo inicial*/
-@media (min-width: 768px){
+@media (min-width: 1025px){
 	.background-image {
 		background-position: center left!important;
 		background-size: 77% 100%!important;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 1024px){
 	.logo-circular { display: none!important; }
 }
 
@@ -2002,13 +2002,18 @@ nav > div > ul a {
 	float: right;
 }
 #header .header_mid_inner .logo_wrap {
-	float: left;
+	margin: auto;
 	height: 100%;
 	position: relative;
 }
 
 /*Logos*/
-@media (min-width: 768px){
+html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
+    display: block;
+    float: none!important;
+    padding: 15px 5%;
+  }
+@media (min-width: 1025px){
 	#header .header_mid_inner .logo_wrap {
 		display: none!important;
 	}
@@ -4319,6 +4324,7 @@ button {
 .blog.timeline .cmsms_archive .project .cmsms_post_format_img {
 	margin-right: 20px;
 }
+.post .cmsms_post_date > abbr { color: #000!important; }
 .post.cmsms_default_type.format-gallery .cmsms_owl_slider .owl-buttons,
 .cmsms_archive .project.cmsms_default_type.format-gallery .cmsms_owl_slider .owl-buttons {
 	position: inherit;
@@ -4784,6 +4790,14 @@ button {
 }
 .opened-article .post .cmsms_post_cont .cmsms_post_header .cmsms_post_title {
 	margin: 0;
+}
+@media (min-width: 768px){
+	.opened-article .post .cmsms_post_cont .cmsms_post_cont_info,
+	.opened-article .post .cmsms_post_cont .cmsms_post_header,
+	.opened-article .post .cmsms_post_cont .cmsms_post_content {
+		width: 50%;
+		margin: auto;
+	}
 }
 .opened-article .post .cmsms_post_cont .cmsms_post_content {
 	padding-top: 20px;
@@ -5399,7 +5413,7 @@ figure.cmsms_img_rollover_wrap:hover .cmsms_img_rollover {
 	padding: 10px;
 	position: relative;
 	overflow: hidden;
-	background-color: #f1cb00!important;
+	background-color: #131313!important;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header {
 	position: relative;
@@ -5408,9 +5422,10 @@ figure.cmsms_img_rollover_wrap:hover .cmsms_img_rollover {
 	margin: 0 0 -5px;
 }
 .portfolio .project .project_outer .project_inner .cmsms_project_header .cmsms_project_title a {
-	color: #444443!important;
-	font-weight: 600!important;
+	color: #fff!important;
+	font-weight: 300!important;
 }
+.project .cmsms_project_cont_info .cmsms_project_category a { color: #f1cb00!important; }
 .portfolio .project .project_outer .project_inner .cmsms_project_content {
 	padding: 20px 0 0;
 }

@@ -252,7 +252,7 @@
 		<div class="ls-auto-update active">
 			<figure>
 				<?php _e('Receive update notifications and install new versions with 1-Click.', 'LayerSlider') ?>
-				<a href="http://support.kreaturamedia.com/docs/layersliderwp/documentation.html#updating" target="_blank"><? _e('Read more', 'LayerSlider') ?></a>
+				<a href="http://support.kreaturamedia.com/docs/layersliderwp/documentation.html#updating" target="_blank"><? _e('Leer más', 'LayerSlider') ?></a>
 				<span class="status" style="<?php echo ($validity == '1') ? 'color: #76b546;' : 'color: red'?>">
 				<?php
 					if($validity == '1') {
