@@ -254,14 +254,17 @@ if (is_singular()) {
 
 				<?php } else {?>
 					<div class="header_right_wrap">
-						<a href="#" class="cmsms_nav_but_wrap">
-							<span class="[ cmsms_nav_title ]">Menú</span>
-							<span class="cmsms_nav_but_outer">
-								<span class="cmsms_nav_but_inner">
-									<span class="cmsms_nav_but"></span>
+						<div class="[ fixed ]">
+							<a href="#" class="cmsms_nav_but_wrap">
+								<span class="[ cmsms_nav_title ]">Menú</span>
+								<span class="cmsms_nav_but_outer">
+									<span class="cmsms_nav_but_inner">
+										<span class="cmsms_nav_but"></span>
+									</span>
 								</span>
-							</span>
-						</a>
+							</a>
+						</div>
+
 					</div>
 					<?php }?>
 				<!-- _________________________ Finish Navigation _________________________ -->

@@ -33,6 +33,10 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 /*-------------------------------------------------------------------------*/
 /*	Components	*/
 /*-------------------------------------------------------------------------*/
+
+/*Position*/
+.fixed { position: fixed; }
+
 /*Form-contact*/
 .ajax-loader { width: 30px; }
 
@@ -57,9 +61,9 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	padding: 50px 15% 30px 30px;
+	padding: 90px 15% 70px 30px;
 }
-@media (min-width: 768px){.background-header { padding: 70px 30% 50px 50px; }}
+@media (min-width: 768px){.background-header { padding: 190px 30% 170px 50px; }}
 
 .background-home { background-image: url(img/background-header/home1.png);}
 .background-bio { background-image: url(img/background-header/bio1.png);}
@@ -2054,8 +2058,12 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 #header .header_mid_inner .logo_wrap .title_text {
 	padding: 0 0 0 3px;
 }
+@media (min-width: 768px) and (max-width: 1024px) { .header_mid { height: 130px!important; } }
 
-@media (min-width: 1025px){ #page #middle{ padding-top: 100px!important; }}
+#header .logo_wrap a {
+	display: block;
+	text-align: center;
+}
 .content {
 	width: 74%;
 	padding: 60px 0 30px 0;
@@ -3210,7 +3218,7 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 }
 .header_mid_inner .header_right_wrap {
 	float: right;
-	padding-right: 20px;
+	padding-right: 0px;
 	position: relative;
 }
 .header_mid_inner .header_right_wrap nav {
@@ -3442,8 +3450,8 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 	max-height: 100%;
 	width: auto;
 	height: auto;
-	margin: auto !important;
-	position: absolute;
+	margin: 40px auto !important;
+	// position: absolute;
 	left: 0;
 	right: auto;
 	top: 0;
@@ -3884,8 +3892,12 @@ body .headline {
 .footer_inner .social_wrap .social_wrap_inner {
 	float: right;
 }
+
+footer .logo-footer {
+	width: 60px;
+	margin-left: 10px;
+}
 /***************** Fixed Footer-Header ******************/
-#header,
 #footer {
 	position: fixed;
 }
