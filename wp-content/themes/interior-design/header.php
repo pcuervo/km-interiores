@@ -230,6 +230,7 @@ if (is_singular()) {
 						) {
 					?>
 						<a href="#" class="cmsms_nav_but_wrap">
+							<span class="[ cmsms_nav_title ]">Menú</span>
 							<span class="cmsms_nav_but_outer">
 								<span class="cmsms_nav_but_inner">
 									<span class="cmsms_nav_but"></span>
@@ -254,6 +255,7 @@ if (is_singular()) {
 				<?php } else {?>
 					<div class="header_right_wrap">
 						<a href="#" class="cmsms_nav_but_wrap">
+							<span class="[ cmsms_nav_title ]">Menú</span>
 							<span class="cmsms_nav_but_outer">
 								<span class="cmsms_nav_but_inner">
 									<span class="cmsms_nav_but"></span>
@@ -317,6 +319,7 @@ if (is_singular()) {
 						}
 						?>
 						<div class="resp_nav_wrap">
+							<span class="[ cmsms_nav_title ]">Menú </span>
 							<div class="resp_nav_wrap_inner">
 								<div class="resp_nav_content">
 									<a class="responsive_nav" href="javascript:void(0);"></a>

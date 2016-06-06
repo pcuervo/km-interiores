@@ -59,14 +59,16 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	background-size: cover;
 	padding: 50px 15% 30px 30px;
 }
-.background-home { background-image: url(img/background-header/home3.jpg);}
-.background-bio { background-image: url(img/background-header/bio3.jpg);}
-.background-blog { background-image: url(img/background-header/blog3.jpg);}
-.background-contacto { background-image: url(img/background-header/contacto3.jpg);}
-.background-eventos { background-image: url(img/background-header/eventos3.jpg);}
-.background-proyectos { background-image: url(img/background-header/proyectos3.jpg);}
-.background-mobiliario { background-image: url(img/background-header/mobiliario3.jpg);}
-.background-publicaciones { background-image: url(img/background-header/publicaciones3.jpg);}
+@media (min-width: 768px){.background-header { padding: 70px 30% 50px 50px; }}
+
+.background-home { background-image: url(img/background-header/home1.png);}
+.background-bio { background-image: url(img/background-header/bio1.png);}
+.background-blog { background-image: url(img/background-header/blog1.png);}
+.background-contacto { background-image: url(img/background-header/contacto1.png);}
+.background-eventos { background-image: url(img/background-header/eventos1.png);}
+.background-proyectos { background-image: url(img/background-header/proyectos1.png);}
+.background-mobiliario { background-image: url(img/background-header/mobiliario1.png);}
+.background-publicaciones { background-image: url(img/background-header/publicaciones1.png);}
 
 /*  Logo inicial*/
 @media (max-width: 1024px){
@@ -2030,11 +2032,11 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
     float: none!important;
     padding: 15px 5%;
   }
-@media (min-width: 1025px){
-	#header .header_mid_inner .logo_wrap {
-		display: none!important;
-	}
-}
+// @media (min-width: 1025px){
+// 	#header .header_mid_inner .logo_wrap {
+// 		display: none!important;
+// 	}
+// }
 
 #header .header_mid_inner .logo_wrap .logo_aligner {
 	display: inline-block;
@@ -2052,6 +2054,8 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 #header .header_mid_inner .logo_wrap .title_text {
 	padding: 0 0 0 3px;
 }
+
+@media (min-width: 1025px){ #page #middle{ padding-top: 100px!important; }}
 .content {
 	width: 74%;
 	padding: 60px 0 30px 0;
@@ -3238,6 +3242,16 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 .header_mid_inner .header_right_wrap ul#navigation > li.menu-item-mega > div > ul > li.current-menu-item > a {
 	background-color: transparent;
 }
+
+.cmsms_nav_title {
+	font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	margin-right: 5px;
+	color: #f1cb00;
+	font-weight: 500;
+	text-transform: uppercase;
+ }
 .header_mid_inner .header_right_wrap .cmsms_nav_but_wrap {
 	float: none;
 	cursor: pointer;
@@ -3245,10 +3259,12 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 	top: 50%;
 	margin-top: -10px;
 	right: 0;
+	width: 70px;
 }
 .header_mid_inner .header_right_wrap .cmsms_nav_but_outer {
 	display: table-cell;
 	vertical-align: middle;
+	float: right;
 }
 .header_mid_inner .header_right_wrap .cmsms_nav_but_inner {
 	display: inline-block;
