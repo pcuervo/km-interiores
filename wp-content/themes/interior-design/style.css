@@ -102,9 +102,19 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	margin-bottom: 40px;
 }
 
+/*Text*/
 .text-transform--none,
 .text-transform--none h4 {
 	text-transform: none!important;
+}
+
+.text-uppercase { text-transform: uppercase; }
+
+/*Font*/
+
+#layerslider_1 * {
+	font-style: normal!important;
+	font-weight: 500!important;
 }
 
 /*-------------------------------------------------------------------------*/
