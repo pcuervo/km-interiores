@@ -117,6 +117,17 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	font-weight: 500!important;
 }
 
+.ls-nav-active {
+	background-color: #fff!important;
+	border-radius: 50%;
+}
+@media (max-width: 768px){
+	.ls-nav-next,
+	.ls-nav-prev,
+	.ls-bottom-slidebuttons {
+		display: none!important;
+	}
+}
 /*-------------------------------------------------------------------------*/
 /*	1.	Browser Reset	*/
 /*-------------------------------------------------------------------------*/
