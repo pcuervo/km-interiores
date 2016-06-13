@@ -372,7 +372,13 @@ function cmsmasters_social_icons() {
 			'<a href="' . esc_url($cmsms_social_icon[1]) . '" class="' . esc_attr($cmsms_social_icon[0]) . '" title="' . esc_attr($cmsms_social_icon[2]) . '"' . (($cmsms_social_icon[3] == 'true') ? ' target="_blank"' : '') . '></a>' . "\r" .
 		'</li>' . "\n";
 	}
+		echo '<li>' . "\n\t" .
+			'<a href="https://www.facebook.com/KM-interiores-918677781475713/?fref=ts" class="cmsms-icon-facebook" title="Facebook" target="_blank"></a>' . "\r" .
+		'</li>' . "\n";
 
+		echo '<li>' . "\n\t" .
+			'<a href="https://www.instagram.com/kminteriores/" class="cmsms-icon-instagram" title="Instagram" target="_blank"></a>' . "\r" .
+		'</li>' . "\n";
 
 	echo '</ul>' . "\r" .
 		'</div>' . "\r" .

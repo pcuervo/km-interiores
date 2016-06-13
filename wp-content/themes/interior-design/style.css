@@ -128,6 +128,10 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 		display: none!important;
 	}
 }
+
+/*Type*/
+
+.pl_content .entry-content { color: #fff; }
 /*-------------------------------------------------------------------------*/
 /*	1.	Browser Reset	*/
 /*-------------------------------------------------------------------------*/
