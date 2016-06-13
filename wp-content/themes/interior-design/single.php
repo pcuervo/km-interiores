@@ -12,8 +12,6 @@
 
 get_header();
 
-echo '<a href="/km-interiores"><div class="[ logo-single ]">' . "\n";
-echo '</div></a>';
 
 $cmsms_option = cmsmasters_get_global_options();
 

@@ -98,9 +98,9 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 }
 
 
-.margin-bottom--large {
-	margin-bottom: 40px;
-}
+.margin-bottom { margin-bottom: 30px!important;}
+.margin-bottom--large { margin-bottom: 40px; }
+
 
 /*Text*/
 .text-transform--none,
