@@ -74,8 +74,8 @@ $cmsms_profile_short_info = get_post_meta(get_the_ID(), 'cmsms_profile_short_inf
 
 	echo '<div class="pl_content">' . "\n" .
 		'<h5 class="entry-title">' . "\n" .
-			// '<a href="' . esc_url(get_permalink()) . '">' . cmsms_title(get_the_ID(), false) . '</a>' . "\n" .
-			'<span>' . cmsms_title(get_the_ID(), false) . '</span>' . "\n" .
+			'<a href="' . esc_url(get_permalink()) . '">' . cmsms_title(get_the_ID(), false) . '</a>' . "\n" .
+			// '<span>' . cmsms_title(get_the_ID(), false) . '</span>' . "\n" .
 		'</h5>' . "\n";
 
 	if ($cmsms_profile_subtitle != '') {
