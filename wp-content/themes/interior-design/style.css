@@ -132,6 +132,19 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 /*Type*/
 
 .pl_content .entry-content { color: #fff; }
+
+/*Proyectos home*/
+
+#projects-home .project .cmsms_project_cont_info { display: none; }
+
+/*imagen publicaciones*/
+
+.category-publicaciones .preloader .full-width {
+	max-width: 100%!important;
+	min-width: inherit!important;
+	width: initial!important;
+}
+
 /*-------------------------------------------------------------------------*/
 /*	1.	Browser Reset	*/
 /*-------------------------------------------------------------------------*/
