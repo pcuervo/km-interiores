@@ -254,10 +254,10 @@ if (is_singular()) {
 
 				<?php } else {?>
 					<div class="header_right_wrap">
-						<div class="[ fixed ]">
+						<div class="[ fixed ][ top-110 ]">
 							<a href="#" class="cmsms_nav_but_wrap">
 								<span class="[ cmsms_nav_title ]">Menú</span>
-								<span class="cmsms_nav_but_outer">
+								<span class="cmsms_nav_but_outer [ relative bottom-3 ]">
 									<span class="cmsms_nav_but_inner">
 										<span class="cmsms_nav_but"></span>
 									</span>

@@ -36,6 +36,10 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 
 /*Position*/
 .fixed { position: fixed; }
+.relative { position: relative; }
+
+.bottom-3 { bottom: 3px; }
+.top-110 { top: 110px; }
 
 /*Form-contact*/
 .ajax-loader { width: 30px; }
@@ -1626,6 +1630,13 @@ nav > div > ul a {
 #header nav > div > ul > li.menu-item-mega.menu-item-mega-fullwidth.menu-item-mega-cols-five > div.menu-item-mega-container > ul > li {
 	width: 20%;
 }
+
+.header_side,
+.header_side_outer,
+.header_side_inner {
+	top: 125px!important;
+}
+
 #header .header_side,
 #header .header_side_inner {
 	position: fixed;
@@ -3488,7 +3499,7 @@ html #page #header .header_mid .header_mid_outer .header_mid_inner .logo_wrap {
 	max-height: 100%;
 	width: auto;
 	height: auto;
-	margin: 40px auto !important;
+	margin: 20px auto !important;
 	// position: absolute;
 	left: 0;
 	right: auto;
