@@ -133,6 +133,14 @@ Tags: white, light, dark, one-column, two-columns, three-columns, four-columns, 
 	}
 }
 
+@media (min-width: 1025px){
+	.header_side,
+	.header_side_outer,
+	.header_side_inner {
+		top: 125px!important;
+	}
+}
+
 /*Type*/
 
 .pl_content .entry-content { color: #fff; }
@@ -1629,12 +1637,6 @@ nav > div > ul a {
 }
 #header nav > div > ul > li.menu-item-mega.menu-item-mega-fullwidth.menu-item-mega-cols-five > div.menu-item-mega-container > ul > li {
 	width: 20%;
-}
-
-.header_side,
-.header_side_outer,
-.header_side_inner {
-	top: 125px!important;
 }
 
 #header .header_side,
