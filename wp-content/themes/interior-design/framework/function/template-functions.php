@@ -739,10 +739,7 @@ function cmsmasters_sharing_box($title_box = false, $tag = 'h3') {
 	echo "<aside class=\"share_posts\">
 		" . ($title_box ? "<{$tag} class=\"share_posts_title\">{$title_box}</{$tag}>" : "") . "
 		<div class=\"share_posts_inner\">
-			<a href=\"https://www.facebook.com/sharer/sharer.php?display=popup&u={$page_link}\">" . esc_html__('Facebook', 'interior-design') . "</a>
-			<a href=\"https://plus.google.com/share?url={$page_link}\">" . esc_html__('Google+', 'interior-design') . "</a>
-			<a href=\"https://twitter.com/intent/tweet?text=" . urlencode(sprintf(__("Check out '%s' on %s website", 'interior-design'), $social_title, $website_name)) . "&url={$page_link}\">" . esc_html__('Twitter', 'interior-design') . "</a>
-			<a href=\"https://pinterest.com/pin/create/button/?url={$page_link}&media={$pinterest_img}&description={$social_title}\">" . esc_html__('Pinterest', 'interior-design') . "</a>
+
 		</div>
 	</aside>
 ";
